@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <title>Project - evolution of brain-expressed genes</title>
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/style-olga.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+                <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Work+Sans:wght@100family=Roboto:wght@700&family=Source+Code+Pro:wght@600&family=Anton&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+
+    <body>
+            <!-- Fixed navbar -->
+<div class="navbar navbar-main navbar-fixed-top" role="navigation">
+    <div class="container">
+        <p class="navbar-text section-header">Olga Chernomor, PhD</p>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        
+        <div class="navbar-collapse collapse navbar-right">
+            <ul class="nav navbar-main navbar-nav">
+                <li><a href="/#about">ABOUT</a></li>
+                <li ><a href="/#research">RESEARCH</a></li>
+                <li ><a href="/#software">SOFTWARE</a></li>
+                <li ><a href="/pubs">PUBLICATIONS</a></li>
+                <li ><a href="/talks">TALKS</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+            <!--<header>
+    <div class="container-full bg-dark-blue-red-top">
+        <p>.
+    </div>
+</header>
+
+
+-->
+            
+            <div class="container-fluid" style="background-color:#f2f2f2;">
+<div class="container">
+    <div class="row cont-margin">
+            <div class="font-oswald" style="padding-top: 120px; padding-bottom: 30px; color: black;">
+                Project: Evolution of cognitive traints - Tracing changes of non-synonymous to synonymous evolutionary rates along human lineage<hr>
+            </div>
+    </div>
+</div>
+</div>
+
+
+<div class="container">
+    <div class="row cont-margin">
+        <div class="container box-border-green" style="width:100%; padding: 20px;">
+        <div class="col-sm-4">
+            
+            <div class="imageAVA">
+                <div class="imageInn">
+                    <img src="/assets/img/projects/project_1/brain-1.png" style="width:100%" alt="multifurcating-primate-tree">
+                </div>
+                <div class="hoverImg">
+                    <img src="/assets/img/projects/project_1/brain-2_2.png" style="width:100%" alt="nine-ILS-trees">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8">
+                <br>
+                Studing the evolution of the human brain is an exciting endeavour to unravel what distinguishes human from its close relatives, ancient hominins and primates. A combination of computational neuroanatomy and evolutionary genetics has a great potential of answering questions about the evolution of cognitive traits, including extinct species, which are otherwise impossible to investigate.
+                </br>
+                <br>
+                The evolution of closely related species is often accompanied by Incomplete Lineage Sorting (ILS), which leads to differences in evolutionary species tree and separate gene trees. The figure is the visualisation of different expected scenarious of gene evolution among Gorilla, Chimp, Human, and its ancient relatives, Denisovan and Neanderthal. To study the evolution of cognitive traits we performed evolutionary analysis by accounting for ILS and providing more robust results for the downstream analysis.
+                </br>
+                <br>
+                In this project I studied evolution of brain-expressed genes by tracing changes of non-synonymous to synonymous evolutionary rates (dN/dS) along branches of primate evolutionary gene-trees. I collected data for modern species and prepared corresponding protein coding sequences for ancient hominins and performed complete evolutionary analysis, from alignments to gene-trees, and subsequent computation of dN/dS ratios. The results of evolutionary analysis were further used as an input for computational neuroanatomy analysis.
+                </br>
+        </div>
+        </div>
+    </div>
+    <div class="row cont-margin">
+        <div class="col-sm-6">
+        <h4 class="section-header text-green">Contributions:</h4>
+        <ul class="list-mar">
+        <li>Data collection: collected protein coding sequences for one-to-one orthologs (brain-expressed genes) for modern species</li>
+        <li>Data preparation: prepared corresponding protein coding sequences for ancient hominins (Denisovan and Neanderthal) by extracting SNPs from published VCF files, mapping them to the human reference, cuting out protein coding sequences by using exon positions extracted from ensembl database</li>
+        <li>Preparation of per-gene multiple sequence alignments</li>
+        <li>Evolutionary model testing</li>
+        <li>Inference of phylogenetic gene-trees (multiple independent runs per gene)</li>
+        <li>Performed tree topology tests</li>
+        <li>Designed an approach to account for Incomplete Lineage Sorting for more robust downstream analysis</li>
+        <li>Performed dN/dS analysis</li>
+        <li>Results parsing and formating for downstream analysis</li>
+        <li>Wrote parts of the manuscript, results visualisation</li>
+        
+        </ul>
+      
+        </div>
+            <div class="col-sm-6">
+                <small>
+                    <div class="info-message info-red">
+                        <b class="text-red">Keywords:</b> protein-coding gene evolution, dN/dS, modern human brain evolution, ancient human
+                    </div>
+                    <div class="info-message info-green">
+                        <b class="text-green">Bioinformatic Tools:</b> vcftools, bedtools, gatk, PRANK, IQ-TREE, PAML, iTOL
+                    </div>
+                    <div class="info-message info-green">
+                        <b class="text-green">Data:</b> DNA/protein sequences,VCF files, biological dataset
+                    </div>
+                    <div class="info-message info-green">
+                        <b class="text-green">Databases:</b>  ensembl, OMA Orthology database
+                    </div>
+                    <div class="info-message info-blue">
+                        <b class="text-blue">Tech/DEV:</b> linux, R, bash, grid cluster, custom pipelines
+                    </div>
+                    
+                    <div class="info-message info-yellow">
+                        <b class="text-yellow">Publications:</b>
+                        <ul style="padding: 5px 5px 5px 15px;">
+                                <li>J. Kaczanowska<sup>e</sup>, F. Ganglberger<sup>e</sup>, <U>O. Chernomor</U>, D. Kargl, B. Galik, A. Hess, Y. Moodley, A. von Haeseler, K. Bühler, W. Haubensak <b>Molecular archaeology of the human brain.</b> (<EM>under review in Cell</EM>)
+                                    <BR><sup>e</sup>&nbsp;contributed equally
+                                </li>
+                            </ul>
+                    </div>
+                </small>
+            </div>
+        
+    </div>
+</div>
+<!--======================================================================-->
+</div>
+<!--======================================================================-->
+
+
+            
+            <div id="footerwrap" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 section-header">
+                <p>Designed and coded by O. Chernomor</p>
+                <p>&copy; 2021</p>
+            </div>
+        </div>
+</div>
+
+            <!-- Bootstrap core JavaScript
+ ================================================== -->
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    $('nav').addClass('shrink');
+  } else {
+    $('nav').removeClass('shrink');
+  }
+});
+</script>
+
+    </body>
+</html>
+

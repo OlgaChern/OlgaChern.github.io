@@ -1,0 +1,53 @@
+---
+layout: default
+title: Publications
+---
+
+<!--======================================================================-->
+
+
+<div class="container-fluid" style="background-color:#f2f2f2;">
+<div class="container">
+    <div class="row cont-margin">
+            <div class="font-oswald" style="padding-top: 120px; padding-bottom: 30px; color: black;">
+                Publications<hr>
+            </div>
+    </div>
+</div>
+</div>
+
+<div class="container" >
+    <div class="row cont-margin list-mar col-sm-10" style="color: black;">
+        {% assign this_year = "" %}
+        {% for pub in site.data.pubdata.publications %}
+            {% if pub.year != this_year %}
+                {% if this_year != "" %}
+                {% endif %}
+                {% assign this_year = pub.year %}
+                <h4 class="section-header" style="margin-top:40px;">{{pub.year}}</h4>
+                <hr>
+            {% endif %}
+                
+            <ul style="margin-left: 20px;">
+                <li>
+                    <strong>
+                        {{pub.authors}}
+                    </strong>
+                    <span class="section-header">
+                        ({{pub.year}})
+                        <br>
+                        <span style="color:#ad2d41;">
+                            {{pub.title}}
+                        </span>
+                        </br>
+                        {{pub.journal}}
+                        {{pub.links}}
+                    </span>
+                </li>
+            </ul>
+        {% endfor %}
+    </div>
+</div>
+
+
+<!--======================================================================-->

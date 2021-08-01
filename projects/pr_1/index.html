@@ -1,0 +1,167 @@
+---
+layout: default
+title: Project - Phylogenetic terraces
+---
+
+<div class="container-fluid" style="background-color:#f2f2f2;">
+<div class="container">
+    <div class="row cont-margin">
+            <div class="font-oswald" style="padding-top: 120px; padding-bottom: 30px; color: black;">
+                Project: Phylogenetic Terraces and the impact of missing data on phylogenomics inference<hr>
+            </div>
+    </div>
+</div>
+</div>
+
+
+<div class="container">
+    <div class="row cont-margin">
+        <div class="container box-border-green" style="width:100%; padding: 20px;">
+        <div class="col-sm-4">
+            <div class="imageAVA">
+                <div class="imageInn">
+                    <img src="{{"/assets/img/projects/project_1/TSG-7_taxa.png" | prepend: site.baseurl}}"
+                        style="width:100%" alt="TreeSpaceGraph">
+                </div>
+                <div class="hoverImg">
+                    <img src="{{"/assets/img/projects/project_1/TSG-7_taxa_terraces_2.png" | prepend: site.baseurl}}" style="width:100%" alt="terraces">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8">
+                <br>In phylogenomics one infers an evolutionary tree for a group of species using genetic information from multiple genes.
+                
+                In mathematical terms this as an optimization problem, where we are searching for a solution, tree topology with branch lengths, among exponential number of candidates.
+                </br>
+               <br>
+                It was shown that in the presence of missing gene sequences the tree space is split into groups of equally optimal solutions, called <i>Phylogenetic Terraces</i>.
+                </br>
+                <br style="">
+                In this project I am developing methods, algorithms and software tools to study, explore and use the notion of equally optimal solutions to improve the inference and to simplify handling of difficult datasets.
+                </br>
+        </div>
+        </div>
+    </div>
+    <div class="row cont-margin">
+        <div class="col-sm-6">
+        <h4 class="section-header text-green">Contributions:</h4>
+        <ul class="list-mar">
+            
+            <li>Generalised the concept of phylogenetic terraces to partial terraces, which occur even more often and lead to trees with very similar score in supermatrix</li>
+            <li>Developed rules to quickly detect partial and complete terraces during tree search</li>
+            <li>Developed data structure and provided the implementation of above rules in IQ-TREE, which lead to speed up and increase of precision in partitioned analysis in supermatrix</li>
+            <li>Developed algorithm Gentrius to generate trees from incomplete unrooted subtrees, which assesses existence and uniqueness of species-trees in supertree and generates all equally scoring species-trees in supermatrix (i.e. trees from one phylogenetic terrace)</li>
+            <li>Provided implementation of Gentrius in IQ-TREE</li>
+            <li>Development of simulator to generate datasets with missing sequences</li>
+            <li>Studied datasets with missing sequences to uncover the characteristics, which lead to large collections of equally optimal species-trees in supertree and supermatrix</li>
+            <li>Collection and analysis of published biological datasets</li>
+            <li>Manuscripts preparation, handling of revisions</li>
+            <li>Results visualisation</li>
+        </ul>
+      
+        </div>
+            <div class="col-sm-6">
+                    <small>
+                        <div class="info-message info-red">
+                            <b class="text-red">Keywords:</b> phylogenomics, supermatrix, missing data, phylogenetic terraces
+                        </div>
+                        <div class="info-message info-green">
+                            <b class="text-green">Bioinformatic Tools:</b> MAFFT, SEQ-GEN, IQ-TREE, RAxML, terraphast, iTOL, FigTree
+                        </div>
+                        <div class="info-message info-green">
+                            <b class="text-green">Data:</b> DNA/protein sequences, multiple-sequence alignments, presence-absence matrices, simulated and biological datasets
+                        </div>
+                        <div class="info-message info-blue">
+                            <b class="text-blue">Tech/DEV:</b> linux, MacOS, C++, python, R, bash, git, HPC/grid clusters, development and implementation of algorithms in IQ-TREE, custom pipelines, custom simulator
+                        </div>
+                        
+                        <div class="info-message info-yellow">
+                            <b class="text-yellow">Publications:</b>
+                            <ul style="padding: 5px 5px 5px 15px;">
+                                    <li>O. Chernomor and A. von Haeseler (in preparation) <b>Gentrius: generating trees from incomplete unrooted trees.</b>
+                                        </li>
+                                    <li>O. Chernomor, A. von Haeseler, and B.Q. Minh (2016) <b>Terrace Aware Data Structure for Phylogenomic Inference from Supermatrices.</b> <i>Syst. Biol.</i>, 65, 997-1008.
+                                        </li>
+                                    <li>O. Chernomor, B.Q. Minh, and A. von Haeseler (2015) <b>Consequences of Common Topological Rearrangements for Partition Trees in Phylogenomic Inference.</b> <i>J. Comput. Biol.</i>, 22, 1129-1142.</li>
+                                    
+                                </ul>
+                        </div>
+                    </small>
+            </div>
+        
+    </div>
+</div>
+<!--======================================================================-->
+<!--<div class="container-fluid text-green">
+    <div class="container">
+        <div class="row cont-margin">
+            <div class="hline-green"></div>
+            <h4 class="section-header">
+            <button class="button-1 button-1-add" data-toggle="collapse" data-target="#PhyloTerraces" aria-expanded="false" aria-controls="PhyloTerraces">
+                Learn more about the concept >>
+            </button>
+            </h4>
+            
+        </div>
+    </div>
+</div>
+
+<div class="container collapse" id="PhyloTerraces">
+    <div class="row cont-margin">
+        <div class="col-sm-6">
+            <center>
+                <img src="{{"/assets/img/projects/project_1/P1-fig1.png" | prepend: site.baseurl}}" width=100% alt="phylogenomics">
+            </center>
+        </div>
+        <div class="col-sm-4">
+            <div class="line-left-red">
+                <div class="info-mar">
+                    In phylogenomics a <b>phylogenetic tree</b> is inferred using information from multiple loci/genes (generally called partitions).
+                    <br><br>If some gene sequences are missing, they are denoted by stretches of dashes in corresponding gene <b>multiple sequence alignment (MSA)</b>.
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="hline-gray cont-margin"></div>
+    
+    <div class="row cont-margin">
+        <div class="col-sm-6">
+            <center>
+                
+            </center>
+        </div>
+        <div class="col-sm-4">
+            <div class="line-left-red">
+                <div class="info-mar">
+                    In the presence of <b>missing sequences</b> for each partition there is an associated <b>induced partition tree</b>.
+                    
+                    <br><br>Induced partition tree is obtained from a given <b>complete tree</b> by deleting species with missing sequences for this partition.
+                    
+                    <br><br>Then the score of a complete tree is computed from the set of its <b>induced partition trees</b>.
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="hline-gray cont-margin"></div>
+    
+    <div class="row cont-margin">
+        <div class="col-sm-6">
+            <center>
+                
+            </center>
+        </div>
+        <div class="col-sm-4">
+            <div class="line-left-red">
+                <div class="info-mar">
+                    If two trees, despite beeing topologically different, induce the same set of induced partition trees, their scores are identical<sup>1</sup>. <text style="color: lightgray; font-size: smaller;">(<sup>1</sup>: likelihood score under general partition model and also parsimony score)</text>
+                    <br><br>A collection of trees, which induce the same set  <b>induced partition trees</b>.
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>-->
+<!--======================================================================-->
+

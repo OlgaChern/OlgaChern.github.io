@@ -1,0 +1,108 @@
+---
+publications:
+
+########### In prep ###########
+  - authors: <U>O. Chernomor</U>, A. von Haeseler
+    year: in preparation
+    title: Gentrius&#58; generating trees from incomplete unrooted subtrees.
+    journal:
+    links: |
+          
+########### under review ###########
+  - authors: J. Kaczanowska<sup>e</sup>, F. Ganglberger<sup>e</sup>, <U>O. Chernomor</U>, D. Kargl, B. Galik, A. Hess, Y. Moodley, A. von Haeseler, K. Bühler, W. Haubensak
+    year: under review
+    title: Molecular archaeology of human cognitive traits.
+    journal: <EM>under review in Cell</EM>
+    links: |
+          <BR><sup>e</sup>&nbsp;contributed equally
+
+
+########### 2021 ###########
+  - authors: <U>O. Chernomor</U><sup>e</sup>, L. Peters<sup>e</sup>, J. Schneidewind<sup>e</sup>, A. Loeschcke, E. Knieps-Gr&uuml;nhagen, F. Schmitz, E. von Lieres, R.J. Kutta, V. Svensson, K.-E. Jaeger, T. Drepper, A. von Haeseler, and U. Krauss
+    year: 2021
+    title: Complex evolution of light-dependent protochlorophyllide oxidoreductases in aerobic anoxygenic phototrophs&#58; origin, phylogeny and function.
+    journal: <EM>Mol. Biol. Evol.</EM>, Volume 38, Issue 3, Pages 819–837.
+    links: |
+      (<A HREF="http://dx.doi.org/10.1093/molbev/msaa234">DOI&#58; 10.1093/molbev/msaa234</A>,
+      <A HREF="http://www.ncbi.nlm.nih.gov/pubmed/32931580">PMID&#58; 32931580</A>)
+      <BR><sup>e</sup>&nbsp;contributed equally
+
+########### 2020 ###########
+  - authors: B.Q. Minh, H.A. Schmidt, <U>O. Chernomor</U>, D. Schrempf, M.D. Woodhams, A. von Haeseler<sup>s</sup>, and R. Lanfear<sup>s</sup>
+    year: 2020
+    title: IQ-TREE 2&#58; New models and efficient methods for phylogenetic inference in the genomic era.
+    journal: <EM>Mol. Biol. Evol.</em>, 37, 1530-1534.
+    links: |
+      (<A HREF="https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msaa015/5721363?guestAccessKey=89916f36-5ba8-437e-82dc-0a0dd7269d74">free reprint</A>,
+       <A HREF="http://dx.doi.org/10.1093/molbev/msaa015">DOI&#58; 10.1093/molbev/msaa015</A>,
+       <A HREF="http://www.ncbi.nlm.nih.gov/pubmed/32011700">PMID&#58; 32011700</A>,
+       <A HREF="http://www.iqtree.org/">software</A>)
+       <BR><sup>s</sup>&nbsp;co-senior authors.
+
+
+########### 2019 ###########
+
+  - authors: P. Breitling, A. Stamatakis, <U>O. Chernomor</U>, B. Bettisworth, and L. Reszczynski
+    year: 2019
+    title: Empirical Analysis of Phylogenetic Quasi-Terraces
+    journal: <EM>bioRxiv</EM>, 810309.
+    links: |
+      (<A HREF="http://dx.doi.org/10.1101/810309">DOI&#58; 10.1101/810309</A>)
+
+
+########### 2018 ###########
+
+  - authors: D.T. Hoang<sup>e</sup>, <U>O. Chernomor</U><sup>e</sup>, A. von Haeseler, B.Q. Minh<sup>c</sup>, and L.S. Vinh<sup>c</sup>
+    year: 2018
+    title: UFBoot2&#58; Improving the ultrafast bootstrap approximation.
+    journal: <EM>Mol. Biol. Evol.</EM>, 35, 518-522.
+    links: |
+      (<A HREF="https://academic.oup.com/mbe/article/35/2/518/4565479?guestAccessKey=b7140d09-7224-4133-bf8d-f670e34988ce">free reprint</A>,
+       <A HREF="http://dx.doi.org/10.1093/molbev/msx281">DOI&#58; 10.1093/molbev/msx281</A>,
+       <A HREF="http://www.ncbi.nlm.nih.gov/pubmed/29077904">PMID&#58; 29077904</A>,
+       <A HREF="http://www.iqtree.org/">software</A>)
+       <BR><sup>e</sup>&nbsp;contributed equally, <sup>c</sup>&nbsp;corresponding authors.
+
+
+########### 2016 ###########
+
+  - authors: <U>O. Chernomor</U>, A. von Haeseler, and B.Q. Minh
+    year: 2016
+    title: Terrace Aware Data Structure for Phylogenomic Inference from Supermatrices.
+    journal: <EM>Syst. Biol.</EM>, 65, 997-1008.
+    links: |
+      (<A HREF="http://sysbio.oxfordjournals.org/cgi/reprint/syw037?ijkey=l10B7prLJheBVVr&keytype=ref">free reprint</A>,
+      <A HREF="http://dx.doi.org/10.1093/sysbio/syw037">DOI&#58; 10.1093/sysbio/syw037</A>,
+      <A HREF="http://www.ncbi.nlm.nih.gov/pubmed/27121966">PMID&#58; 27121966</A>,
+      <A HREF="http://www.cibiv.at/software/iqtree/">software</A>)
+
+  - authors: <U>O. Chernomor</U>, S. Klaere, A. von Haeseler, and B.Q. Minh
+    year: 2016
+    title: Split diversity&#58; measuring and optimizing biodiversity using phylogenetic split networks.
+    journal: In R. Pellens and P. Grandcolas (eds.) <EM>Biodiversity Conservation and Phylogenetic Systematics</EM> (Series&#58; Topics in Biodiversity and Conservation, Vol. 14), 173-195, Springer, Heidelberg/New York.
+    links: |
+      (<A HREF="http://dx.doi.org/10.1007/978-3-319-22461-9_9">DOI&#58; 10.1007/978-3-319-22461-9_9</A>,
+      <A HREF="http://dx.doi.org/10.1007/978-3-319-22461-9">book-DOI&#58; 10.1007/978-3-319-22461-9_9</A>,
+      eISBN: <A HREF="http://www.springer.com/de/book/9783319224619">978-3-319-22461-9</A>,
+      ISBN: <A HREF="http://www.springer.com/de/book/9783319224602">978-3-319-22460-2</A>)
+
+
+########### 2015 ###########
+
+  - authors: <u>O. Chernomor</u>, B.Q. Minh<sup>c</sup>, F. Forest, S. Klaere, T. Ingram, M. Henzinger, and A. von Haeseler
+    year: 2015
+    title: Split Diversity in Constrained Conservation Prioritization using Integer Linear Programming.
+    journal: <EM>Methods Ecol. Evol.</em>, 6, 83-91.
+    links: |
+      (<A HREF="http://dx.doi.org/10.1111/2041-210X.12299">DOI&#58; 10.1111/2041-210X.12299</A>),
+      <sup>c</sup></b>&nbsp;corresponding author
+
+  - authors: <u>O. Chernomor</u>, B.Q. Minh, and A. von Haeseler
+    year: 2015
+    title: Consequences of Common Topological Rearrangements for Partition Trees in Phylogenomic Inference.
+    journal: <EM>J. Comput. Biol.</em>, 22, 1129-1142.
+    links: |
+      (<A HREF="http://dx.doi.org/10.1089/cmb.2015.0146">DOI&#58; 10.1089/cmb.2015.0146</A>,
+      <A HREF="http://www.ncbi.nlm.nih.gov/pubmed/26448206">PMID&#58; 26448206</A>)
+
+---
