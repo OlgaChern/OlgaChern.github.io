@@ -1,21 +1,22 @@
 ---
 publications:
 
-########### In prep ###########
-  - authors: <U>O. Chernomor</U>, A. von Haeseler
-    year: in preparation
-    title: Gentrius&#58; generating trees from incomplete unrooted subtrees.
-    journal:
+########### Preprint ###########
+  - authors: <U>O. Chernomor</U>, C. Elgert, A. von Haeseler
+    year: 2023
+    title: Identifying equally scoring trees in phylogenomics with incomplete data using Gentrius 
+    journal:bioRxiv
     links: |
           
-########### under review ###########
+########### 2022 ###########
   - authors: J. Kaczanowska<sup>e</sup>, F. Ganglberger<sup>e</sup>, <U>O. Chernomor</U>, D. Kargl, B. Galik, A. Hess, Y. Moodley, A. von Haeseler, K. Bühler, W. Haubensak
-    year: under review
+    year: 2022
     title: Molecular archaeology of human cognitive traits.
-    journal: <EM>under review in Cell</EM>
+    journal: <EM>Cell Rep.</EM> 40(9)&#58;111287
     links: |
+    (<A HREF="http://dx.doi.org/10.1016/j.celrep.2022.111287">DOI&#58; 10.1016/j.celrep.2022.111287</A>,
+      <A HREF="http://www.ncbi.nlm.nih.gov/pubmed/36044840">PMID&#58; 36044840</A>)
           <BR><sup>e</sup>&nbsp;contributed equally
-
 
 ########### 2021 ###########
   - authors: <U>O. Chernomor</U><sup>e</sup>, L. Peters<sup>e</sup>, J. Schneidewind<sup>e</sup>, A. Loeschcke, E. Knieps-Gr&uuml;nhagen, F. Schmitz, E. von Lieres, R.J. Kutta, V. Svensson, K.-E. Jaeger, T. Drepper, A. von Haeseler, and U. Krauss
